@@ -27,4 +27,4 @@
 |  6 |Comment Controller |&#x2611;  |
 |  7 |Database (PostgreSQL) |&#x2611;  |
 |  8 |Purchasing Service |&#x2611;  |
-|  9 |Statistics |:clock9: |
+|  9 |Statistics |&#x2611; |
