@@ -1,0 +1,28 @@
+### Registration
+POST localhost:8090/auth/registration
+Content-Type: application/json
+
+{
+  "name": "user1",
+  "surname": "userjon1",
+  "login": "user_1",
+  "password": "Aa123456"
+}
+
+### Login
+POST localhost:8090/auth/login
+Content-Type: application/json
+
+{
+  "login": "ali_12",
+  "password": "Qxw1234521"
+}
+
+### Login Admin
+POST localhost:8090/auth/login
+Content-Type: application/json
+
+{
+  "login": "admin_jon",
+  "password": "Ab123456"
+}

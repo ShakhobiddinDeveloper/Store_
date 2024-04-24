@@ -1,0 +1,22 @@
+### kitob sotib olish
+PUT localhost:8090/purchase
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+{
+  "bookId": "66f59c39-d925-462b-ae83-faa309488069",
+  "profileId": "380f074b-8eed-40af-94b4-9e04e15c2cb5"
+}
+
+### update
+POST localhost:8090/purchase/...
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM3ODY2MTgsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM4NzMwMTgsImlzcyI6Ikt1blV6VGVzdCJ9.v3I2razK4Xamr8_40zvSRSZGtP6s-KADZLIyLBAYUjpeQqYGi_iX0d5wt5TWtKdoaD03POWTbYMBXwa6AoSpYA
+
+{
+  "bookId": ""
+}
+
+### delete
+DELETE localhost:8090/purchase/...
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM3ODY2MTgsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM4NzMwMTgsImlzcyI6Ikt1blV6VGVzdCJ9.v3I2razK4Xamr8_40zvSRSZGtP6s-KADZLIyLBAYUjpeQqYGi_iX0d5wt5TWtKdoaD03POWTbYMBXwa6AoSpYA

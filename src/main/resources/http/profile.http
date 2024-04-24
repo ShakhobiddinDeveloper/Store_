@@ -1,0 +1,59 @@
+### Creaate profile by admin
+POST localhost:8090/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4NjY2NjQsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NTMwNjQsImlzcyI6Ikt1blV6VGVzdCJ9.W5yTWFYAHD__CxsLabu5qtVak_HfKaqYs36RJAOIWEPAxXYmgufRDUOpTLmeoYMhsbLbr3bQBhg9TjnYHdcJ7Q
+
+{
+  "name": "Ali",
+  "surName": "Aliyev",
+  "login": "manrager",
+  "password": "Ww123456",
+  "role": "ROLE_MANAGER",
+  "status": "ACTIVE"
+}
+
+### Update profile by admin
+PUT localhost:8090/profile/00fd5664-dd0d-4971-8b26-c9429011b85c
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4NjYxNDUsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NTI1NDUsImlzcyI6Ikt1blV6VGVzdCJ9.6FMENlXTaZ-VC7K-WX7rIZl006u7egsM1xsKDqjV4-_7Yw_a9dfB_CkrCPHpCymw7VIu1loehyqWe2-ss94PLg
+
+{
+  "name": "Update",
+  "surName": "12rfwfr"
+}
+
+### Update profile detail
+PUT localhost:8090/profile/detail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM3ODY2MTgsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM4NzMwMTgsImlzcyI6Ikt1blV6VGVzdCJ9.v3I2razK4Xamr8_40zvSRSZGtP6s-KADZLIyLBAYUjpeQqYGi_iX0d5wt5TWtKdoaD03POWTbYMBXwa6AoSpYA
+
+{
+  "name": "Update",
+  "surName": "12rfwfr"
+}
+
+### Get All
+GET localhost:8090/profile
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA3NDIsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjcxNDIsImlzcyI6Ikt1blV6VGVzdCJ9.AsDb2WIAxLzUYS1nlyPsHvqmflsvKCbeBnG2LHdXjJuTfH85dn_0GExqeJGk60zGauhJW7SxGDSDaQfrKUf-xg
+
+### delete
+DELETE localhost:8090/profile/00fd5664-dd0d-4971-8b26-c9429011b85c
+Authorization:  Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA3NDIsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjcxNDIsImlzcyI6Ikt1blV6VGVzdCJ9.AsDb2WIAxLzUYS1nlyPsHvqmflsvKCbeBnG2LHdXjJuTfH85dn_0GExqeJGk60zGauhJW7SxGDSDaQfrKUf-xg
+
+### filter
+POST localhost:8090/profile/filter
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA3NDIsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjcxNDIsImlzcyI6Ikt1blV6VGVzdCJ9.AsDb2WIAxLzUYS1nlyPsHvqmflsvKCbeBnG2LHdXjJuTfH85dn_0GExqeJGk60zGauhJW7SxGDSDaQfrKUf-xg
+
+{
+  "role": "ROLE_MANAGER",
+  "name": "d"
+}
+
+### Eng aktiv userlar
+GET localhost:8090/profile/active
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA3NDIsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjcxNDIsImlzcyI6Ikt1blV6VGVzdCJ9.AsDb2WIAxLzUYS1nlyPsHvqmflsvKCbeBnG2LHdXjJuTfH85dn_0GExqeJGk60zGauhJW7SxGDSDaQfrKUf-xg
+
+### statistic
+GET localhost:8090/profile/statistic/380f074b-8eed-40af-94b4-9e04e15c2cb5
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA3NDIsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjcxNDIsImlzcyI6Ikt1blV6VGVzdCJ9.AsDb2WIAxLzUYS1nlyPsHvqmflsvKCbeBnG2LHdXjJuTfH85dn_0GExqeJGk60zGauhJW7SxGDSDaQfrKUf-xg

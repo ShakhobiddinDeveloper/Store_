@@ -1,0 +1,27 @@
+### Create
+POST localhost:8090/book-price
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+{
+  "bookId": "f31be1bc-289e-4f64-b71f-d9cbe8624f1e",
+  "price": 234
+}
+
+### upate
+PUT localhost:8090/book-price/14451ac3-fd09-40e6-a06d-4bf69e00e7ce
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+{
+  "price": 234,
+  "bookId": "f31be1bc-289e-4f64-b71f-d9cbe8624f1e"
+}
+
+### delete
+DELETE localhost:8090/book-price/...
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM3ODY2MTgsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM4NzMwMTgsImlzcyI6Ikt1blV6VGVzdCJ9.v3I2razK4Xamr8_40zvSRSZGtP6s-KADZLIyLBAYUjpeQqYGi_iX0d5wt5TWtKdoaD03POWTbYMBXwa6AoSpYA
+
+### get Price By Book Id
+GET localhost:8090/book-price/f31be1bc-289e-4f64-b71f-d9cbe8624f1e
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g

@@ -1,0 +1,46 @@
+Store
+
+Kitob sotuv do'konini avtomatlashtirish uchun mo'ljallangan loyiha.
+Crudlar: Books, Authors, Users, Price
+
+1.User uchun Auth(login parolli).
+2.Author view pageda kitob qo'shish imkoniyati bo'lishi kerak.
+3.Book view pageda User tomonidan comment yozishi.
+4.Book view pageda User tomonidan sotib olinishi.
+
+Tablitsalar:
+
+Authors - id, name, ...
+Books - id, author_id, name, ...
+Users - id, login, password, name, ...
+Comments - id, book_id, user_id, content, created_at
+Prices - id, book_id, price, ...
+User_purchases - id, book_id, user_id, price, created_at // istoriya
+
+Foydalanish kerak: Spring Security, JWT, DB - table relations
+
+
+Manager panel.
+
+Managerlar uchun sotuv jarayoni hisobotlarini ko'rib turish imkoniyati kerak. Bu loyiha store shop loyihasini davomi hisoblanadi.
+Kerakli hisobotlar:
+a) Userlar bo'yicha
+
+1.Ohirgi haftada ro'yhatdan o'tgan Userlar
+2.Ro'yhadan o'tgan userlar sonini davrlarda(masalan oylarga bo'lib) hisoboti
+3.Eng aktiv userlar - bunda ko'p kitob sotib olgan, ko'p summada kitob sotib olgan, ko'p comment yozgan shartlari bo'yicha chiqarish kerak.
+4.Vali(Ismi) 2(kitob soni) 89,000(summa) 21(comment soni)
+Ali 5 53,000 45
+...
+b) Kitoblar bo'yicha:
+
+1.Eng ko'p sotilgan kitoblarni ko'rsatish
+2.Eng mashxur kitoblar - sotilishi, commentlar soni, view count bo'yicha chiqarish kk
+c) Yozunchilar bo'yicha. Bu o'zlaringiz ijod qilib ko'rishingiz mumkin.
+
+Maqsad:
+
+Qiyin SQLlarni yozib ko'rish.
+DAO va Repository bilan ishlash,
+@Query anatatsiyasini yutuqlari va kamchiligi.
+Springda proyekt ichida native sqllarni yozib ko'rish va uni natijasida kelib chiqadigan muammolarni o'rganish

@@ -1,0 +1,40 @@
+### create book
+POST localhost:8090/book
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+{
+  "name": "book1",
+  "authorId": "8dd0f1fd-4d17-46fe-af5a-8cf138ce8b85"
+}
+
+### update book
+PUT localhost:8090/book/66f59c39-d925-462b-ae83-faa309488069
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+{
+  "name": "AWD"
+}
+
+###  Delete boook
+DELETE localhost:8090/book/
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM3ODY2MTgsImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM4NzMwMTgsImlzcyI6Ikt1blV6VGVzdCJ9.v3I2razK4Xamr8_40zvSRSZGtP6s-KADZLIyLBAYUjpeQqYGi_iX0d5wt5TWtKdoaD03POWTbYMBXwa6AoSpYA
+
+### Get by id
+GET localhost:8090/book/66f59c39-d925-462b-ae83-faa309488069
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+### Get all
+GET localhost:8090/book
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+
+### Eng ko'p sotilgan kitob
+GET localhost:8090/book/max-sales
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
+### Eng mashxur kitoblar
+GET localhost:8090/book/famous-books
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTM4ODA5NjksImVtYWlsIjoiYWRtaW5fam9uIiwicm9sZSI6IlJPTEVfQURNSU4iLCJleHAiOjE3MTM5NjczNjksImlzcyI6Ikt1blV6VGVzdCJ9.DWr6fhmj49OgDXHKzakGKQ1fAwZ36GdigimA7ZA-8Ev9gR1cbRiKTiIEVDTovf6rjvGSqUlvtoZghe1zOgFL3g
+
