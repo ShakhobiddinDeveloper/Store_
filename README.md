@@ -1,13 +1,13 @@
-Instructions on how to install and set up the project.
+<h3>Instructions on how to install and set up the project.</h3>
 
-# Clone the repository
-git clone https://github.com/username/repository.git](https://github.com/ShakhobiddinDeveloper/Store_.git
+<h4># Clone the repository</h4>
+<h5>git clone https://github.com/username/repository.git](https://github.com/ShakhobiddinDeveloper/Store_.git</h5>
 
-# Change directory
-cd repository
+<h4># Change directory</h4>
+<h5>cd repository</h5>
 
-# Install dependencies
-npm install
+<h4># Install dependencies</h4>
+<h5>npm install</h5>
     
     Status                                                   
 |№|Mark|Meaning|                                           
@@ -15,8 +15,6 @@ npm install
 |  1 | &#x2612;  | Not Started |
 |  2 | &#x2610;  | In Progress |
 |  3 | &#x2611;  | Done |
-
-
 
    Information
 |№|Services|Status|
