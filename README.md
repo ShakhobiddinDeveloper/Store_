@@ -25,6 +25,6 @@
 |  4 |Book Service |&#x2611;  |
 |  5 |Pagination |&#x2611;  |
 |  6 |Comment Controller |&#x2611;  |
-|  7 |Database (PostgrSQL) |&#x2611;  |
+|  7 |Database (PostgreSQL) |&#x2611;  |
 |  8 |Purchasing Service |&#x2611;  |
 |  9 |Statistics |:clock9: |
