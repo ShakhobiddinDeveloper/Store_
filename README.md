@@ -13,7 +13,7 @@
 |№|Mark|Meaning|                                           
 |---|---|---|
 |  1 | &#x2612;  | Not Started |
-|  2 | &#x2610;  | In Progress |
+|  2 | :clock9:  | In Progress |
 |  3 | &#x2611;  | Done |
 
    Information
@@ -26,5 +26,5 @@
 |  5 |Pagination |&#x2611;  |
 |  6 |Comment Controller |&#x2611;  |
 |  7 |Database (PostgrSQL) |&#x2611;  |
-|  8 |Purchasing Service |&#x2610; |
-|  9 |Statistics |&#x2610; |
+|  8 |Purchasing Service |&#x2611;  |
+|  9 |Statistics |:clock9: |
