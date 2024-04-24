@@ -1,3 +1,14 @@
+Instructions on how to install and set up the project.
+
+# Clone the repository
+git clone https://github.com/username/repository.git](https://github.com/ShakhobiddinDeveloper/Store_.git
+
+# Change directory
+cd repository
+
+# Install dependencies
+npm install
+    
     Status                                                   
 |№|Mark|Meaning|                                           
 |---|---|---|
