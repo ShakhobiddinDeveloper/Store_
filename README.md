@@ -30,4 +30,4 @@
 |  9 |Statistics |&#x2611; |
 
 
-> "data.pRepaymentArray >>> (account, date, startBalance, debit, credit, endBalance)"
+> data.pRepaymentArray >>> (account, date, startBalance, debit, credit, endBalance)
